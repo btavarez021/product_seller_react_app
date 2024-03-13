@@ -88,7 +88,7 @@ export function ProductsList(){
                      ))}
                  </ul>
              ) : (
-                <span id="loading-text">Loading...</span>
+                <span id="loading-text">No items to show. Please insert a product using the form below.</span>
              )}
         </>
      ); 

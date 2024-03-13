@@ -42,7 +42,7 @@ export function SellerList(){
                          <li key={index}>
                             <div className='seller-info'> 
                              <span className='seller-property'>Seller Id:</span><span className='product-value'>{seller.sellerId}</span><br></br>
-                             <span className='seller-property'>Seller Name:</span><span className='product-value'>{seller.sellerName}</span>
+                             <span className='seller-property'>Seller Name:</span><span className='product-value'>{seller.sellerName}</span><br></br><br></br>
                              </div>
                              {/* <DeleteSeller onDelete={()=>handleDeleteSeller(seller.sellerId)}/> */}
 
@@ -50,7 +50,7 @@ export function SellerList(){
                      ))}
                  </ul>
              ) : (
-                 <span id="loading-text">Loading...</span>
+                 <span id="loading-text">No items to show. Please insert a seller using the form below.</span>
              )}
         </>
      ); 
