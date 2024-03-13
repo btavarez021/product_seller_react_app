@@ -25,7 +25,7 @@ function App() {
     </div>
       <BrowserRouter>
       <Routes>
-       <Route path='' element={<Homepage></Homepage>}/>
+        <Route path='' element={<Homepage></Homepage>}/>
         <Route path='sellers' element={<SellerPage></SellerPage>}/>
         <Route path='products' element={<ProductsPage></ProductsPage>}/>
         <Route path="*" element={<PageNotFound></PageNotFound>}/>
